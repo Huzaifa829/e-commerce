@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #930808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-text{
+    font-size: 5vmax;
+    color: whitesmoke;
+    font-family: 'Audiowide';
+    font-weight: 100;
+}
+#card-div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(219, 225, 230);
+}
+.card{
+    border-radius: 20PX;
+    width: 45vmax;
+    height: 20vmax;
+    margin-bottom: 10PX;
+    margin-top: 10PX;
+    background-color: white;
+}
+.card-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.card-img{
+    border-radius: 20PX;
+
+    width: 15vmax;
+    height: 19vmax;
+}
+.card-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 59%;
+    height: 95%;
+    /* background-color: aqua; */
+
+}
+.card-info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 10%;
+    color: white;
+    font-size: 1.5vmax;
+    font-family: 'Audiowide';
+    background-color: #930808;
+}
+.quantity{
+    width: 25% !important;
+    font-size: 1vmax !important;
+}
+.colour{
+    width: 22% !important;
+    font-size: 1vmax !important;
+}
+.card-text{
+    font-size: 2vmax;
+}
+.card-value{
+    font-size: 1.5vmax;
+}
+.order-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    height: 100px;
+    background-color:#d48f8f;
+}
+.order-main1{
+    display: flex;
+    width: 80%;
+    /* background-color: #930808; */
+    height: 90%;
+}
+.order-main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.order-text{
+    font-family: Arial,;
+    font-size: 3vmax;
+}
+.order-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    /* background-color: aliceblue; */
+}
+.order-button{
+    width: 14vmax;
+    height: 6vmax;
+    font-size: 1.5vmax;
+    font-family: cursive;
+}
